@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "665561104552",
+    "project_id": "contacts-15034",
+    "storage_bucket": "contacts-15034.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:665561104552:android:c7ddb5a43ca92ee8d6829d",
+        "android_client_info": {
+          "package_name": "com.bit.bitcontacts"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "665561104552-8orcft4hqcrljmesd5328niqmqhjpm38.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0V_oBMgTk5J8fcDmyVtzmtPti_M8Quv4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "665561104552-8orcft4hqcrljmesd5328niqmqhjpm38.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

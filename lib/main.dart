@@ -1,8 +1,11 @@
 import 'package:bitcontacts/screens/homepage.dart';
 import 'package:bitcontacts/screens/splashpage.dart';
 import 'package:flutter/material.dart';
+import 'package:firebase_core/firebase_core.dart';
 
-void main() {
+Future main() async{
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
   runApp( MyApp());
 }
 
@@ -24,7 +27,6 @@ class _MyAppState extends State<MyApp> {
         primarySwatch: Colors.lightBlue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
         scaffoldBackgroundColor: Color.fromARGB(255, 222, 238, 245)
-
       ),
       routes: {
         '/' : (context)=>MySplashPage(),

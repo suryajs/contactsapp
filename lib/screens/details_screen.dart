@@ -6,7 +6,7 @@ import 'package:flutter_phone_direct_caller/flutter_phone_direct_caller.dart';
 import 'package:flutter_sms/flutter_sms.dart';
 
 // final Staff staff;
-
+// List<String> recipents = ;
 // List<String> recepients = [];
 class StaffDetailsScreen extends StatelessWidget {
   
@@ -127,7 +127,7 @@ class StaffDetailsScreen extends StatelessWidget {
                 children: [
                   IconButton(
                     onPressed: ()async{
-                      // await sendSMS(message: "message",recipients: staff.phone);
+                      // await sendSMS(message: 'Hello', recipients: recipents, sendDirect: true)
                     }, 
                     icon: Icon(Icons.message),iconSize: 30,),
                     IconButton(
